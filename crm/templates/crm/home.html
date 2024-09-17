@@ -1,0 +1,278 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Adda Partners</title>
+
+<link rel="stylesheet" href="{% static 'crm/css/style.css' %}">
+<link rel="icon" href="{% static 'crm/images/favicon.png' %}" type="image/png">
+<link href="{% static 'crm/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="{% static 'crm/css/animate.css' %}" rel="stylesheet" type="text/css">
+ 
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+ 
+</head>
+<body>
+
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="#"><img src="{% static 'crm/images/logo.png' %}" alt="logo"></a></div>
+	  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
+			  <li><a href="#aboutUs" class="scroll-link">Sobre</a></li>
+			  <li><a href="#service" class="scroll-link">Serviços</a></li>		  
+			  <li><a href="#clients" class="scroll-link">Clientes</a></li>
+			  <li><a href="#team" class="scroll-link">Time</a></li>
+			  <li><a href="#contact" class="scroll-link">Contato</a></li>
+        <li><a href="#Entrar" class="scroll-link">Entrar</a></li>
+			</ul>
+      </div>
+	 </nav>
+    </div>
+  </div>
+</header>
+<!--Header_section--> 
+
+<!--Hero_Section-->
+<section id="hero_section" class="top_cont_outer">
+  <div class="hero_wrapper">
+    <div class="container">
+      <div class="hero_section">
+        <div class="row">
+          <div class="col-lg-5 col-sm-7">
+            <div class="top_left_cont zoomIn wow animated"> 
+              <h2>Operações de crédito exclusivas com<strong> Adda Partners</strong></h2>
+              <p>O caminho para os líderes que desejam mudar o mundo!</p>
+              <a href="#service" class="read_more2">Leia mais</a> </div>
+          </div>
+          <div class="col-lg-7 col-sm-5">
+            <img src="{% static 'crm/images/main_device_image.png' %}" class="zoomIn wow animated" alt="" />
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Hero_Section--> 
+
+<section id="aboutUs"><!--Aboutus-->
+<div class="inner_wrapper">
+  <div class="container">
+    <h2>Sobre nós</h2>
+    <div class="inner_section">
+	  <div class="row">
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="{% static 'crm/images/about-img.jpg' %}" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+        	<div class=" delay-01s animated fadeInDown wow animated">
+			      <h3>Sobre a Adda Partners</h3><br/> 
+            <p>Transformamos oportunidades em histórias de sucesso unindo fundos de investimentos à empresas que necessitam de crédito personalizado.</p> <br/>
+            
+          </div>
+<div class="work_bottom"> <span>Quer saber mais...</span> <a href="#contact" class="contact_btn">Contate-nos</a> </div>       
+	   </div>
+      	
+      </div>
+	  
+      
+    </div>
+  </div> 
+  </div>
+</section>
+<!--Aboutus--> 
+
+
+<!--Service-->
+<section  id="service">
+  <div class="container">
+    <h2>Serviços</h2>
+    <div class="service_wrapper">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service_block">
+            <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-chart-line""></i></span> </div>
+            <h3 class="animated fadeInUp wow">Crédito Corporativo</h3>
+            <p class="animated fadeInDown wow">Recurso de uso livre para ajudar no crescimento da sua empresa.</p>
+
+          
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">			
+          <div class="service_block">
+            <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-seedling"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Crédito para o Agronegócio</h3>
+            <p class="animated fadeInDown wow">Financiamento para produtores agrícolas ou distribuidores de insumos.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">
+          <div class="service_block">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-building"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Crédito Imobiliário</h3>
+            <p class="animated fadeInDown wow">Tire seus projetos do papel com Adda Partners </p>
+          </div>
+        </div>
+      </div>
+	   <div class="row borderTop">
+        <div class="col-lg-4 mrgTop">
+          <div class="service_block">
+            <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-road"></i></span> </div>
+            <h3 class="animated fadeInUp wow">Cŕedito para infraestrutura</h3>
+            <p class="animated fadeInDown wow">Financie suas obras de maneira rápida e segura</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!--Service-->
+ 
+
+<section class="page_section" id="clients"><!--page_section-->
+  <h2>Algumas de nossas operações</h2>
+<!--page_section-->
+<div class="client_logos"><!--client_logos-->
+  <div class="container">
+    <ul class="fadeInRight animated wow">
+      <li><a href="javascript:void(0)"><img src="{% static 'crm/images/client_logo1.png' %}" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="{% static 'crm/images/client_logo2.png' %}" alt=""></a></li>
+      <li><a href="javascript:void(0)"><img src="{% static 'crm/images/client_logo3.png' %}" alt=""></a></li>
+      
+    </ul>
+  </div>
+</div>
+</section>
+<!--client_logos-->
+
+<section class="page_section team" id="team"><!--main-section team-start-->
+  <div class="container">
+    <h2>Sócios Adda Partners</h2>
+    
+    <div class="team_section clearfix">
+      <div class="team_area">
+        <div class="team_box wow fadeInDown delay-03s">
+          <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
+          <img src="{% static 'crm/images/team_pic1.png' %}" alt="">
+          <ul>
+            <li><a href="javascript:void(0)" class="fab fa-twitter"></a></li>
+            <li><a href="javascript:void(0)" class="fab fa-facebook"></a></li>
+            <li><a href="javascript:void(0)" class="fab fa-linkedin"></a></li>
+            <li><a href="javascript:void(0)" class="fab fa-instagram"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-03s">Victor Marques</h3>
+        <span class="wow fadeInDown delay-03s">CEO</span>
+        <p class="wow fadeInDown delay-03s">falar sobre falar sobre </p>
+      </div>
+      <div class="team_area">
+        <div class="team_box  wow fadeInDown delay-06s">
+          <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
+          <img src="{% static 'crm/images/team_pic4.jpg' %}" alt="">
+          <ul>
+            <li><a href="javascript:void(0)" class="fab fa-twitter"></a></li>
+            <li><a href="javascript:void(0)" class="fab fa-facebook"></a></li>
+            <li><a href="javascript:void(0)" class="fab fa-linkedin"></a></li>
+            <li><a href="javascript:void(0)" class="fab fa-instagram"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-06s">Lucas</h3>
+        <span class="wow fadeInDown delay-06s">CEO: Occus</span>
+        <p class="wow fadeInDown delay-06s">falar sobre falar sobre </p>
+      </div>
+      <div class="team_area">
+        <div class="team_box wow fadeInDown delay-09s">
+          <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
+          <img src="{% static 'crm/images/team_pic4.jpg' %}" alt="">
+          <ul>
+            <li><a href="javascript:void(0)" class="fab fa-twitter"></a></li>
+            <li><a href="javascript:void(0)" class="fab fa-facebook"></a></li>
+            <li><a href="javascript:void(0)" class="fab fa-linkedin"></a></li>
+            <li><a href="javascript:void(0)" class="fab fa-instagram"></a></li>
+          </ul>
+        </div>
+        <h3 class="wow fadeInDown delay-09s">Diogo</h3>
+        <span class="wow fadeInDown delay-09s">Sócio</span>
+        <p class="wow fadeInDown delay-09s">falar sobre falar sobre </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/Team-->
+<!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+        <h2>Solicite o seu crédito</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            
+          </div>
+          <div class="col-lg-4">
+           
+          </div>
+          <div class="col-lg-4">
+          
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 wow fadeInLeft">	
+		 <div class="contact_info">
+                            <div class="detail">
+                                <h4>Endereço</h4>
+                                <p>Av. Ibirapuera, 2033, Conjunto 123
+                                  04029-100  São Paulo /SP</p>
+                            </div>
+                            <div class="detail">
+                                <h4>Ligue para nós</h4>
+                                <p>Victor Marques: (31) 9 9975-1404</p>
+                            </div>
+                            <div class="detail">
+                                <h4>Nos mande um e-mail</h4>
+                                <p>victor.marques@addapartners.com.br</p>
+                            </div> 
+                        </div>
+       		  
+			  
+          
+          <ul class="social_links">
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fab fa-facebook"></i></a></li>
+            <li class="linkedin animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fab fa-linkedin"></i></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li> 
+          </ul>
+        </div>
+        <div class="col-lg-8 wow fadeInLeft delay-06s">
+          <div class="form">
+            <input class="input-text" type="text" name="" value="Seu Nome *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="text" name="" value="Seu E-Mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Sua mensagem *</textarea>
+    <div class="footer_bottom"><span>Copyright © 2024,    Desenvolvido por <a href="http://webthemez.com">lucasGomes.com</a>. </span> </div>
+  </div>
+</footer>
+
+    <script type="text/javascript" src="{% static 'crm/js/jquery-1.11.0.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'crm/js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'crm/js/jquery-scrolltofixed.js' %}"></script>
+    <script type="text/javascript" src="{% static 'crm/js/jquery.nav.js' %}"></script> 
+    <script type="text/javascript" src="{% static 'crm/js/jquery.easing.1.3.js' %}"></script>
+    <script type="text/javascript" src="{% static 'crm/js/jquery.isotope.js' %}"></script>
+    <script type="text/javascript" src="{% static 'crm/js/wow.js' %}"></script> 
+    <script type="text/javascript" src="{% static 'crm/js/custom.js' %}"></script>
+
+</body>
+</html>

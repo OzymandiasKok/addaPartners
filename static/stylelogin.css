@@ -1,0 +1,102 @@
+/* Estilos modernos e minimalistas para a página de login */
+
+/* Definindo um fundo gradiente suave */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ececec, #f9f9f9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Centralizando a caixa de login */
+.login-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+}
+
+/* Estilizando o título */
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+/* Inputs mais compactos e modernos */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.8rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* Mudança de cor na borda ao focar no campo */
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Botão estilizado */
+button[type="submit"] {
+    width: 100%;
+    padding: 0.9rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover para o botão */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Links simples e modernos */
+.login-container a {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Efeito de hover para os links */
+.login-container a:hover {
+    color: #0056b3;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 1.5rem;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    button[type="submit"] {
+        padding: 0.8rem;
+        font-size: 0.95rem;
+    }
+}
